@@ -1,0 +1,158 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+   border-right: 1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: green;
+}
+
+
+li:last-child {
+  border-right: none;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.header {
+
+  background-color: hsla(290,100%,50%,0.3);
+  background-image: linear-gradient(purple, white);
+  border: 10px double black;
+  padding: 25px;
+  padding-top: 50px;
+  padding-right: 80px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  text-shadow: 3px 2px grey;
+  
+}
+
+
+.foot {
+    padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+.container {
+      width: 100%;
+      min-height: 700px;
+      text-align: center;
+}
+
+  .mainCont { 
+    
+    margin: auto;
+    width:80%;
+    border: 3px solid #b3e0ff;
+    padding: 10px;
+    text-align: center;
+}
+
+#itemsContainer {
+    width: 100%;
+    text-align: center;
+    
+    
+}
+
+
+#itemsContainer h1 {
+   display: block;
+    color: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+    
+}
+
+
+.itemhols {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 22%;
+    padding:10px;
+    min-height: 300px;
+   
+}
+
+
+.itemhols h1 {
+   display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px
+    
+}
+
+
+.itemhols p {
+   display: block;
+    color: #6A6868;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px
+    
+}
+
+
+
+.itemholsIm {
+    width: 30%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block;
+    
+}
+
+
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 800px) {
+  .your-class {
+    width: 100%;
+    background-color: pink;
+  }
+    
+}
+  
